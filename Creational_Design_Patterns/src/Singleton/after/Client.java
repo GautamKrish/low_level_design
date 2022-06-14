@@ -11,3 +11,8 @@ public class Client {
         singleton_three.printInstanceAddress();
     }
 }
+/*
+When to use Singleton
+1. Shared Resource
+2. When there is no state (no attributes).
+*/
