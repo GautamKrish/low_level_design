@@ -16,7 +16,18 @@ public class Client {
 		Student_v2 object_2 = new Student_v2(map);
 		/*
 			client can make typos in strings while defining keys.
-			client can mess up order of putting parameters into map. There is no validation
+			client can mess up order of putting parameters into map. There is no validation.
 		*/
+		Map<Parameter, Object> map_enum = new HashMap<>();
+		map_enum.put(Parameter.NAME, "Gautam Krishnan");
+		map_enum.put(Parameter.ID, "33378755");
+		map_enum.put(Parameter.CONTACT, "8907654824");
+		map_enum.put(Parameter.EMAIL, "gkrish@gmail.com");
+		map_enum.put(Parameter.AGE, 17);
+		Student_v3 object_3 = new Student_v3(map_enum);
+		/*
+			Using ENUM solves the typo issue.
+			Still can mess up order of putting parameters into map.
+		 */
 	}
 }
