@@ -27,7 +27,17 @@ public class Client {
 		Student_v3 object_3 = new Student_v3(map_enum);
 		/*
 			Using ENUM solves the typo issue.
-			Still can mess up order of putting parameters into map.
+			Still can mess up order of putting parameters into map.9
+		 */
+		Builder builder = new Builder();
+		builder.setName("Gautam Krishnan");
+		builder.setId("33378755");
+		builder.setContact("7028543901");
+		builder.setEmail("gautam@gmail.com");
+		builder.setAge(12);
+		Student_v4 object_4 = new Student_v4(builder);
+		/*
+			order doesn't matter as setter functions are defined.
 		 */
 	}
 }
