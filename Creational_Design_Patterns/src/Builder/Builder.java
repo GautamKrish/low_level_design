@@ -7,44 +7,29 @@ public class Builder {
 	String contact;
 	int age;
 
-	public void setName(String name) {
+	public Builder setName(String name) {
 		this.name = name;
+		return this;
 	}
 
-	public void setId(String id) {
+	public Builder setId(String id) {
 		this.id = id;
+		return this;
 	}
 
-	public void setEmail(String email) {
+	public Builder setEmail(String email) {
 		this.email = email;
+		return this;
 	}
 
-	public void setContact(String contact) {
+	public Builder setContact(String contact) {
 		this.contact = contact;
+		return this;
 	}
 
-	public void setAge(int age) {
+	public Builder setAge(int age) {
 		this.age = age;
-	}
-
-	public String getName() {
-		return name;
-	}
-
-	public String getId() {
-		return id;
-	}
-
-	public String getEmail() {
-		return email;
-	}
-
-	public String getContact() {
-		return contact;
-	}
-
-	public int getAge() {
-		return age;
+		return this;
 	}
 
 }

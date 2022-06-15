@@ -8,10 +8,10 @@ public class Student_v4 {
 	int age;
 
 	public Student_v4(Builder builder){
-		this.name = builder.getName();
-		this.id = builder.getId();
-		this.email = builder.getEmail();
-		this.contact = builder.getContact();
-		this.age =  builder.getAge();
+		this.name = builder.name;
+		this.id = builder.id;
+		this.email = builder.email;
+		this.contact = builder.contact;
+		this.age =  builder.age;
 	}
 }
