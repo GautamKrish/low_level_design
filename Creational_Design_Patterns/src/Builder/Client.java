@@ -30,7 +30,9 @@ public class Client {
 			Still can mess up order of putting parameters into map.9
 		 */
 		Builder builder = new Builder();
-		builder .setName("Gautam Krishnan")
+
+		builder
+				.setName("Gautam Krishnan")
 				.setId("33378755")
 				.setContact("7028543901")
 				.setEmail("gautam@gmail.com")

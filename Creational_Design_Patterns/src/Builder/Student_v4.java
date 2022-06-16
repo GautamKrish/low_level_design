@@ -1,12 +1,15 @@
 package Builder;
 
 public class Student_v4 {
-	String name;
-	String id;
-	String email;
-	String contact;
-	int age;
+	private String name;
+	private String id;
+	private String email;
+	private String contact;
+	private int age;
 
+	public Student_v4(){
+
+	}
 	public Student_v4(Builder builder){
 		this.name = builder.name;
 		this.id = builder.id;
@@ -14,4 +17,14 @@ public class Student_v4 {
 		this.contact = builder.contact;
 		this.age =  builder.age;
 	}
+	public Builder getBuilder(){
+		return new Builder();
+	}
 }
+
+/*
+	Immutable class
+		a. attributes cannot be set from outside the class.
+		b. attributes to be private.
+		c. no setters hence attributes can be initialized only via constructor (via first time instance creation).
+ */
