@@ -7,18 +7,12 @@ public class Student_v4 {
 	private String contact;
 	private int age;
 
-	public Student_v4(){
-
-	}
 	public Student_v4(Builder builder){
 		this.name = builder.name;
 		this.id = builder.id;
 		this.email = builder.email;
 		this.contact = builder.contact;
 		this.age =  builder.age;
-	}
-	public Builder getBuilder(){
-		return new Builder();
 	}
 }
 

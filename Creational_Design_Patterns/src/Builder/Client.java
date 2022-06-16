@@ -42,5 +42,14 @@ public class Client {
 			order doesn't matter as setter functions are defined.
 			No type casting runtime exceptions;
 		 */
+
+		Student_v5 object_5 = Student_v5.getBuilder()
+										.setName("Gautam")
+										.setAge(43)
+										.setEmail("gautam@gmail.com")
+										.setId("7876433")
+										.setContact("9077865431")
+										.build();
+
 	}
 }
