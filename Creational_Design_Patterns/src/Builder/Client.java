@@ -27,7 +27,7 @@ public class Client {
 		Student_v3 object_3 = new Student_v3(map_enum);
 		/*
 			Using ENUM solves the typo issue.
-			Still can mess up order of putting parameters into map.9
+			Still can mess up order of putting parameters into map.
 		 */
 		Builder builder = new Builder();
 
