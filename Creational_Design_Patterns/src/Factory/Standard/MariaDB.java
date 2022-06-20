@@ -15,4 +15,9 @@ public class MariaDB implements Database{
 	public int getConnectionLimit() {
 		return 0;
 	}
+
+	@Override
+	public Query getQuery() {
+		return new MariaDBQuery();
+	}
 }

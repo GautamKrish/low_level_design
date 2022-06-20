@@ -15,7 +15,8 @@ public class Client {
 			db = new MariaDB();
 		else
 			db = new MongoDB();
-		//using DatabaseFactory
+
+		//using Factory DP
 		db = DatabaseFactory.getDBConnectionByConfig(dbConfig);
 	}
 }
