@@ -1,0 +1,7 @@
+public static void main(String[]args){
+		int num_of_bullets = 72000;
+		for(int i = 0; i < num_of_bullets; i++){
+			Bullet bullet = new Bullet();
+
+		}
+}
